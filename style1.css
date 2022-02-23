@@ -1,0 +1,25 @@
+body{
+    background-image: url("Pics/road1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 100px;
+}
+
+#wrapper {  
+    width: 1500px;
+    height: 360px;
+    position: relative;
+}
+  
+.name {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 50px;
+}

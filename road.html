@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Road Transport</title>
+    </head>
+    <body style="background-color:rgb(212, 212, 135);">
+        <h2>Road Transport</h2>
+        <h3>Hmmm.. What vehicle is this? Click to know!</h3>
+        <audio id="audio_bus">
+            <source src="audio\bus.mp3" type="audio/mpeg"/>
+        </audio>
+
+        <img src="Pics\bus1.png" alt="bus" usemap="#roadTransport" width="80%" height="80%">
+
+        <map name="roadTransport">
+        <area shape="rect" coords="0, 0, 1919, 1143" alt="Bus"
+        onClick="document.getElementById('audio_bus').play(); return false;">
+        </map>
+
+        <p>Road Transport refers to all the vehicles that can transport people or objects by land.<br>
+            Examples: Bicycle, car, Bus, Train, Truck, Van, Taxi, Bike, Scooter, Tractor
+        </p>
+        <br><br>
+        <h3>Watch this video about road transport!</h3>
+        <video width="600" height="400" controls>
+            <source 
+            src="video\Road Transport.mp4" type="video/mp4">
+        </video>
+        <br><br>
+        <h3>Hear this audio about road transport👇</h3>
+        <audio controls>
+            <source 
+            src="audio\roadTransport.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>
